@@ -9,6 +9,7 @@
     padding: 15px;
     border-radius: 20px;
     margin-top: 45px;
+    margin-bottom: 45px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -19,7 +20,7 @@
     max-width: 750px;
     margin: 0 auto;
   }
-  
+
   .circle {
     width: 75px;
     height: 75px;
@@ -32,23 +33,23 @@
     margin: 0 auto;
     padding: 0;
   }
-  
+
   .circle:nth-child(1) {
     background-color: black;
   }
-  
+
   .circle:nth-child(2) {
     background-color: blue;
   }
-  
+
   .circle:nth-child(3) {
     background-color: red;
   }
-  
+
   .circle:nth-child(4) {
     background-color: orange;
   }
-  
+
   .circle:hover {
     border-radius: 0%;
     -webkit-border-radius: 0%;
@@ -57,23 +58,23 @@
     -o-border-radius: 0%;
     background-color: yellow;
   }
-  
+
   .circle:hover .first {
     display: block;
   }
-  
+
   .circle:hover .second {
     display: block;
   }
-  
+
   .circle:hover .third {
     display: block;
   }
-  
+
   .circle:hover .fourth {
     display: block;
   }
-  
+
   .first {
     position: absolute;
     bottom: 100%;
@@ -84,7 +85,7 @@
     border: 5px dotted red;
     display: none;
   }
-  
+
   .second {
     position: absolute;
     bottom: 100%;
@@ -95,7 +96,7 @@
     border: 5px dotted red;
     display: none;
   }
-  
+
   .third {
     position: absolute;
     top: 100%;
